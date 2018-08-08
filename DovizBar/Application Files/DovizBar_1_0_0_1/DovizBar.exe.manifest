@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DovizBar.exe" version="1.0.0.1" publicKeyToken="5600db31a3faa2c8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DovizBar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DovizBar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DovizBar.exe" size="14872">
+      <assemblyIdentity name="DovizBar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uDMC/SaOcCaoHxa+ScOjAfNMeHA5c8zMIPmeUZ5nno0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="126976">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.8.5.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3z4DIu8r6Vd5nn22FMA/1wql6Qh/bAjZBTc1mGMljQc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DovizBar.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-97R8EDR\Göktuğ Özdemir" issuerKeyHash="b94008e672d50e8da7e2d05f0e946210a89131d6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZkkC8xv7WkDIC8hsSaSggLF4N3aHjB6XvKvYd86k9P0=</DigestValue></Reference></SignedInfo><SignatureValue>Kt7vZzCvV9XDxBMaXdMkJOHKGDZrhWqkF2CZYRZnCApmG7ajE/7q3Kjmyet3p5bs6u7hTGR1blmcy0zrMg6YmLwzVew/sowbg5KbenK+/VVPPuO2tBFkCRLC3cdmzeU4/vK90w8B//mixEyUlidUB8l5UPc751Sypm6TcLeMUzM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lmty/0hLARgPrwwFLgH6vDxDPF3JZfKn6g41kwoYhUp7Qd1o6VBJqq3sUgMJDN8NJJN6qmjLTm4271WA5jJ2K0JFIiO7M/pgmeiNiISJ+9C/OK66MdwTLZynD4jBH9ygheJyG+ElCnQ1NwWSFidJlh0UWER6nLCI+AQUPDla3SU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fdf4a4ce77d8abbc971e8c87763778b180a0a4496cc80bc8405afb1bf3024966" Description="" Url=""><as:assemblyIdentity name="DovizBar.exe" version="1.0.0.1" publicKeyToken="5600db31a3faa2c8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-97R8EDR\Göktuğ Özdemir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SwE9DHNTbLncHdQs4Vp+Gj1e8hJBsqGKZiaTO143PCw=</DigestValue></Reference></SignedInfo><SignatureValue>JucnljpYjkSBU71YVi1CUWhi66AsKHJbEzMAXZI6f0ZU/n1xe9eNYRXSB7i9+i040waI5ow8y5XWsM5V2BAJ+d+pBbbUBJcPPxQQicTIwbe38eM198KVh8TM7+vsEDzoFIECPj00nXBixsif+JabKgXLGCOMEoGg+Mv5AeN1VB4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lmty/0hLARgPrwwFLgH6vDxDPF3JZfKn6g41kwoYhUp7Qd1o6VBJqq3sUgMJDN8NJJN6qmjLTm4271WA5jJ2K0JFIiO7M/pgmeiNiISJ+9C/OK66MdwTLZynD4jBH9ygheJyG+ElCnQ1NwWSFidJlh0UWER6nLCI+AQUPDla3SU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQQG5Mwz2j7b5MQOlFRJZC4zANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADkANwBSADgARQBEAFIAXABHAPYAawB0AHUBHwAgANYAegBkAGUAbQBpAHIwHhcNMTgwODA4MDcxMDI3WhcNMTkwODA4MTMxMDI3WjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtADkANwBSADgARQBEAFIAXABHAPYAawB0AHUBHwAgANYAegBkAGUAbQBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJZrcv9ISwEYD68MBS4B+rw8QzxdyWXyp+oONZMKGIVKe0HdaOlQSaqt7FIDCQzfDSSTeqpoy05uNu9VgOYyditCRSIjuzP6YJnojYiEifvQvziuujHcEy2cpw+IwR/coIXichvhJQp0NTcFkhYnSZYdFFhEepywiPgEFDw5Wt0lAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAYi/3kh4vUwB0F7U011ITWArAsfssn0igPCmpOiYdIZJJg107j73a4kjNvLgZ/rmi0W1+GDqdJSMgAmxKJz6T629ykVr0h5cs0bS7mAsLzxBfoXqCGCt/Og3qhv4wbL71TBKNEC1M4VUg1t41YuRVL51qOpBrEmlsfaChQ7cmhWs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
