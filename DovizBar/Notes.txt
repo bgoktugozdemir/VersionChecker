@@ -1,0 +1,7 @@
+v2.1.1 Güncelleme Notları
+-------------------------
+*Ekran başlıkları yenilendi.
+*Programın veri tasarufu ve performansı 10 kat arttırıldı.
+*Güncelleme notları eklendi. Artık yenilikleri kolaylıkla takip edebileceksiniz.
+*Uygulamanın logosu yenilendi.
+*Bir sonraki güncellemenin alt yapısı sağlandı.
