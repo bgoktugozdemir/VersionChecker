@@ -1,7 +1,7 @@
-v2.1.1 GÃ¼ncelleme NotlarÄ±
+v2.1.1 Güncelleme Notları
 -------------------------
-*Ekran baÅŸlÄ±klarÄ± yenilendi.
-*ProgramÄ±n veri tasarufu ve performansÄ± 10 kat arttÄ±rÄ±ldÄ±.
-*GÃ¼ncelleme notlarÄ± eklendi. ArtÄ±k yenilikleri kolaylÄ±kla takip edebileceksiniz.
-*UygulamanÄ±n logosu yenilendi.
-*Bir sonraki gÃ¼ncellemenin alt yapÄ±sÄ± saÄŸlandÄ±.
+*Ekran başlıkları yenilendi.
+*Programın veri tasarufu ve performansı 10 kat arttırıldı.
+*Güncelleme notları eklendi. Artık yenilikleri kolaylıkla takip edebileceksiniz.
+*Uygulamanın logosu yenilendi.
+*Bir sonraki güncellemenin alt yapısı sağlandı.
