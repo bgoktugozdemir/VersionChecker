@@ -1,7 +1,9 @@
-﻿v2.1.1 Güncelleme Notları
--------------------------
-*Ekran başlıkları yenilendi.
-*Programın veri tasarufu ve performansı 10 kat arttırıldı.
-*Güncelleme notları eklendi. Artık yenilikleri kolaylıkla takip edebileceksiniz.
-*Uygulamanın logosu yenilendi.
-*Bir sonraki güncellemenin alt yapısı sağlandı.
+﻿v2.1.2
+
+
+-------------------------------------------
+*Arayüz'de ufak çaplı değişiklikler yapıldı.
+
+*Artık döviz değeri değişmediğinde yanındaki işaret yok olacak.
+
+*Bu sürümde hedeflenen döviz değeri sisteminde ufak çaplı geliştirme yapıldı. İstediğiniz seviyeye geldiğinde uygulama ses ile size bilgilendirme yapacak. Bu ses şimdilik kapatılamayacak.
