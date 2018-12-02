@@ -1,4 +1,8 @@
-﻿v3.0.1
+﻿v3.0.2
+-------------------------------------------
+* Ortalama değerlerin yanlış hesaplanmasına neden olan küçük bir hata giderildi.
+
+v3.0.1
 -------------------------------------------
 Büyük güncellemeler hatasız gelmez. Bizde küçük bir hata düzeltmesi yaptık. Biz çalışırken siz keyfinize bakın.
 
