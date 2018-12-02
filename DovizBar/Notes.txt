@@ -1,4 +1,8 @@
-﻿v3.0.0
+﻿v3.0.1
+-------------------------------------------
+Büyük güncellemeler hatasız gelmez. Bizde küçük bir hata düzeltmesi yaptık. Biz çalışırken siz keyfinize bakın.
+
+v3.0.0
 -------------------------------------------
 Bu güne kadar ki en büyük güncellemeye hoşgeldin.
 Yenilikler saymakla bitmez ama bir yerden başlamamız lazım.
