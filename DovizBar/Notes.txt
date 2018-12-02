@@ -4,6 +4,7 @@ Bu güne kadar ki en büyük güncellemeye hoşgeldin.
 Yenilikler saymakla bitmez ama bir yerden başlamamız lazım.
 
 * Artık yenilikleri görüntülediğinde saat bölümünde geçici olarak kullandığın sürüm yazıyor.
+* İnternet bağlantısı kesildiğinde yaşanan çökme kısa süreli olarak engellendi.
 * Ekranı aşağı doğru genişletme butonunun yeri değiştirildi.
 * Program baştan aşağı Yön Odaklı Programlama teknikleri kullanılarak yenilendi. Bu sayede;
   - Programdaki hatalar minimum'a indirildi.
