@@ -1,3 +1,15 @@
-﻿v2.1.5
+﻿v3.0.0
 -------------------------------------------
-* Kur değerleri değiştiğinde kolay anlaşılması bakımından tek renk yerine yeşil ve kırmızı olarak belirtecek.
+Bu güne kadar ki en büyük güncellemeye hoşgeldin.
+Yenilikler saymakla bitmez ama bir yerden başlamamız lazım.
+
+* Artık yenilikleri görüntülediğinde saat bölümünde geçici olarak kullandığın sürüm yazıyor.
+* Ekranı aşağı doğru genişletme butonunun yeri değiştirildi.
+* Program baştan aşağı Yön Odaklı Programlama teknikleri kullanılarak yenilendi. Bu sayede;
+  - Programdaki hatalar minimum'a indirildi.
+  - Sistem performansı arttırıldı.
+* Yeni Mini Döviz Bar uygulamanın içine entegre edildi. Bu bara '🗕' butonuna basarak ulaşabilirsin.
+* Yeni Mini Döviz Bar çok az bir alan kaplar ve bu sayede bir yandan kurları takip ederken diğer taraftan hiçbir zorluk çekmeden diğer işlerine devam edebilirsin.
+* Yeni Mini Döviz Bar ile çok daha sade ve anlaşılır bir arayüzle büyük işler yapabilirsin.
+
+Diğer yenilikleri de kullandıkça bulabilirsin...
