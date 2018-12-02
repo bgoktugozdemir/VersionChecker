@@ -1,4 +1,8 @@
-﻿v3.0.2
+﻿v3.0.3
+-------------------------------------------
+* Güncelleme yapmadan önce v2.1.7 sürümüne dönmeye neden olan hata giderildi.
+
+v3.0.2
 -------------------------------------------
 * Ortalama değerlerin yanlış hesaplanmasına neden olan küçük bir hata giderildi.
 
